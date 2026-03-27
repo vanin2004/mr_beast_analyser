@@ -4,9 +4,9 @@ from normalize import normalize_column
 
 def sample_df():
     return pd.DataFrame({
-        'timestamp': [0, 3, 5, 9],
-        'views': [10, None, 30, 0],
-        'likes': [1, 2, None, 4]
+        'timestamp': [0, 3, 5,8, 9],
+        'views': [10, None,None, 30, 0],
+        'likes': [1, 2, None, None , 4]
     })
 
 
